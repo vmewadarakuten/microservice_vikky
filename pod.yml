@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
-metadata: 
+metadata:
   name: pod1
-spec: 
+spec:
   containers:
-  - name: nginx-vikky
+  - name: nginx-arjun
     image: nginx
-    ports: 
-      -containerPort: 8080
+    ports:
+    - containerPort: 8080
